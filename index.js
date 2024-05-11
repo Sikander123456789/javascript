@@ -75,15 +75,76 @@
 // console.log(train1[0]);
 
 // Arrays, funcntion, loops:
-var train1= ["wheat", "barley", "potato", "salt", "rocks"];
-function array(){
-    console.log(train1)
+// var train1 = ["wheat", "barley", "potato", "salt", "rocks"];
+// function array() {
+//     console.log(train1)
+// }
+
+// for (var i = 0; i < 5; i++) {
+//     array();
+//     break;
+// }
+
+// Objects:
+
+// var car= {};
+// car.colour="red";
+// car["colour"]="green";
+// car["speed"]="200";
+// car.speed=100;
+// console.log(car);
+
+// function for push and pop
+
+// function arrayBuilder(one, two, three){
+//     var arr=[];
+//     arr.push(one);
+//     arr.push(two);
+//     arr.push(three);
+//     console.log(arr);
+// }
+// var simpleArr=arrayBuilder('apple','pear','bnanan')
+
+// Math.random();
+
+// var decimal = Math.random();
+
+// console.log(decimal);
+
+// console.log(decimal * 10);
+
+// console.log ("ho-ho-ho" .indexOf('h'));
+
+// console.log ("ho-ho-ho" .split('-'));
+
+// Task 01:
+// var clothes=[];
+// clothes.push("shirt");
+// clothes.push("tishirt");
+// clothes.push("pant");
+// clothes.push("polo");
+// clothes.push("trouser");
+//  clothes.pop(clothes[4]);
+//  clothes.push("jeans");
+//  console.log(clothes[2]);
+
+var car = {};
+car.mileage= 98765;
+car.color= "red";
+console.log(car);
+
+car.turnTheKey =function(){
+    console.log ("the engine is running");
 }
 
-for(var i=0; i<5; i++){
-    array();
-    break;
+car.light= function(){
+    console.log("the lights are on");
 }
+console.log(car);
+car.turnTheKey();
+car.light();
+
+
 
 
 
