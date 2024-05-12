@@ -94,7 +94,7 @@
 // car.speed=100;
 // console.log(car);
 
-// function for push and pop
+// function for push and pop:
 
 // function arrayBuilder(one, two, three){
 //     var arr=[];
@@ -128,23 +128,44 @@
 //  clothes.push("jeans");
 //  console.log(clothes[2]);
 
-var car = {};
-car.mileage= 98765;
-car.color= "red";
-console.log(car);
+// var car = {};
+// car.mileage= 98765;
+// car.color= "red";
+// console.log(car);
 
-car.turnTheKey =function(){
-    console.log ("the engine is running");
-}
+// car.turnTheKey =function(){
+//     console.log ("the engine is running");
+// }
 
-car.light= function(){
-    console.log("the lights are on");
-}
-console.log(car);
-car.turnTheKey();
-car.light();
+// car.light= function(){
+//     console.log("the lights are on");
+// }
+// console.log(car);
+// car.turnTheKey();
+// car.light();
 
+// function addNums(a,b){
+//     console.log(a+b);
+// }
+// addNums(1, 2);
 
+// console.log("still runnung");
 
+// to catch error:
+// try{
+//     console.log(c+d);
+// }
+// catch(err){
+// // do something
+// }
+// console.log("this line now run");
 
+// template literals: 
+// console.log(`${1+1+2+3}stars!`);
+
+// spread operator:
+
+const arr1=['a', 'b', 'c', 'd','e','f','g'];
+const arr2=['a','b',...arr1]
+console.log(arr2);
 
